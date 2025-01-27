@@ -32,7 +32,7 @@ locals {
       ports            = ["22"]
       priority         = 1002
       description      = "Allow ssh communication via VPN."
-      source_ip_ranges = ["194.116.193.46/32"]
+      source_ip_ranges = ["<TWOJE_IP>/32"]
     }
     "allow-icmp" = {
       protocol         = "icmp"
